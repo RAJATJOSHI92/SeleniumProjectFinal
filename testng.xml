@@ -3,9 +3,10 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/macbookpro/Desktop/Selenium_Project_Final">
         <classes>
-            <class name="org.example.firstpage">
+            <class name="testclass.firsttest" >
                 <methods>
-                    <include name="hello"/>
+                    <include name="firsttest"/>
+                    <include name="Secondtest"/>
                 </methods>
             </class>
         </classes>
