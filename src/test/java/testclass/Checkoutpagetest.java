@@ -48,7 +48,7 @@ public void ordercheckout() throws Throwable
     String ss = driver.getTitle();
     Assert.assertEquals("My Account – Automation Practice Site", ss);
     //String usernameee = accntpage.inputuserpass("joshi.rajat085@gmail.com", "Manthecool2@786");
-    String usernameee = login.inputuserpass("rajat.joshi087@gmail.com", "Manthecool2@786");
+    String usernameee  = login.inputuserpass(prop.getProperty("username"), prop.getProperty("passward"));
     System.out.println(usernameee);
     login.click();
     System.out.println("clicked");
