@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page.*;
 
+import static utility.Log.log;
+
 public class Checkoutpagetest extends Baseclass
 {
     Loginpage login;
@@ -51,40 +53,41 @@ public void ordercheckout() throws Throwable
     String usernameee  = login.inputuserpass(prop.getProperty("username"), prop.getProperty("passward"));
     System.out.println(usernameee);
     login.click();
-    System.out.println("clicked");
+    log.info(" login clicked again");
+    //System.out.println("clicked");
     String text = driver.findElement(By.xpath("//strong[normalize-space()='rajat.joshi087']")).getText();
-    System.out.println(text);
+    log.info(text);
     Assert.assertEquals(text, "rajat.joshi087");
-    System.out.println("assertion passed");
+    log.info("assertion passed");
 
 
     landing.gotoorders();
-    System.out.println(" order clicked");
+    log.info(" order clicked");
     orders.clickonshop();
-    System.out.println("shop clicked");
+    log.info("shop clicked");
     shop.clickandroid();
-    System.out.println("android clicked");
+    log.info("android clicked");
     android.setquqntity();
 
     android.clickbasket();
-    System.out.println("basket clicked");
+    log.info("basket clicked");
     android.viewbasket();
-    System.out.println(" view basket clicked");
+    log.info(" view basket clicked");
     basket.clicktoproceed();
-    System.out.println(" proceed to checkout clicked");
+    log.info(" proceed to checkout clicked");
      checkout.setdetails("rajatt","joshii","joshi enterprise","9803035459","punjab","pta","147004");
-    System.out.println("details entered");
+    log.info("details entered");
     checkout.clickbtn();
-    System.out.println("btn clicked");
-    System.out.println("button clicked");
+    log.info("btn clicked");
+    log.info("button clicked");
     String sss =driver.findElement(By.className("woocommerce-thankyou-order-received")).getText();
     Assert.assertEquals(sss,"Thank you. Your order has been received.");
-    System.out.println("Order placed");
+    log.info("Order placed");
 }
 
-   // @AfterMethod
-    //public static void teardown()
-   // {
-    //    driver.quit();
-    //}
+   @AfterMethod
+    public static void teardown()
+    {
+        driver.quit();
+    }
 }

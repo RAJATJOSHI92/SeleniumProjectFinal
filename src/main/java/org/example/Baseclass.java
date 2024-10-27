@@ -8,6 +8,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.w3c.dom.DOMConfiguration;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -21,6 +22,8 @@ public class Baseclass {
     public static Properties prop;
 
     public static WebDriverWait wait;
+
+
     @BeforeTest
     public void config() throws  Throwable
     {
