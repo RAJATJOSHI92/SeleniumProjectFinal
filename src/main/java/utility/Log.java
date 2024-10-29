@@ -10,11 +10,11 @@ public class Log
 
 
         public static void startTestCase(String sTestCaseName){
-        Log.info("====================================="+sTestCaseName+" TEST START=========================================");
+        log.info("====================================="+sTestCaseName+" TEST START=========================================");
     }
 
         public static void endTestCase(String sTestCaseName){
-        Log.info("====================================="+sTestCaseName+" TEST END=========================================");
+        log.info("====================================="+sTestCaseName+" TEST END=========================================");
     }
 
         // Need to create below methods, so that they can be called

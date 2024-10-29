@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page.Accountpage;
 import page.Indexpage;
+import utility.Log;
 
 import java.util.List;
 
@@ -28,8 +29,9 @@ public class IndexTest  extends Baseclass
     {
         index=new Indexpage();
         index.clickacct();
+        Log.startTestCase("verify");
         String ss = driver.getTitle();
-        Assert.assertEquals("My Account – Automation Practice Site",ss);
+        Assert.assertEquals("My Account – Automation Practice Sit",ss);
     }
 
 
