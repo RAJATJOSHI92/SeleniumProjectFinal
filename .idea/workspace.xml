@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d26e0063-bb49-41ed-b283-34748dd9d4d7" name="Changes" comment="first commit" />
+    <list default="true" id="d26e0063-bb49-41ed-b283-34748dd9d4d7" name="Changes" comment="commit5">
+      <change afterPath="$PROJECT_DIR$/Extentreports/Reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/verify_20241029121817.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/verify_20241029122007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/verify_20241029122426.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/verify_20241029122932.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ExtentreportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/action/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/action/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Baseclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Baseclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testclass/IndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testclass/IndexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +34,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/RajatLocal" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RajatLocal" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -31,18 +65,107 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/Desktop/Selenium_Project_Final&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Logo" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testclass" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.Log" />
+      <module name="Selenium_Project_Final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Landingpagetest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project_Final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclass" />
+      <option name="MAIN_CLASS_NAME" value="testclass.Landingpagetest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Loginpagetest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project_Final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclass" />
+      <option name="MAIN_CLASS_NAME" value="testclass.Loginpagetest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopPagetest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Project_Final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclass" />
+      <option name="MAIN_CLASS_NAME" value="testclass.ShopPagetest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/macbookpro/Desktop/Selenium_Project_Final/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Project_Final" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -52,6 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/macbookpro/Desktop/Selenium_Project_Final/testng.xml" />
+        <item itemvalue="Application.Log" />
+        <item itemvalue="TestNG.ShopPagetest" />
+        <item itemvalue="TestNG.Landingpagetest" />
+        <item itemvalue="TestNG.Loginpagetest" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +212,56 @@
       <option name="project" value="LOCAL" />
       <updated>1729757720011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1729757784463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729757784463</updated>
+    </task>
+    <task id="LOCAL-00005" summary="local upadted commit">
+      <created>1729758309925</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729758309925</updated>
+    </task>
+    <task id="LOCAL-00006" summary="local upadted commit2">
+      <created>1729761495768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729761495768</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit3">
+      <created>1729925670183</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729925670183</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit4">
+      <created>1729926551262</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729926551262</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit5">
+      <created>1730028450112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730028450112</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit5">
+      <created>1730038220902</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730038220902</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +278,16 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="local upadted commit" />
+    <MESSAGE value="local upadted commit2" />
+    <MESSAGE value="commit3" />
+    <MESSAGE value="commit4" />
+    <MESSAGE value="commit5" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit5" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Selenium_Project_Final$Loginpagetest.ic" NAME="Loginpagetest Coverage Results" MODIFIED="1729792022833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>testclass.*</FILTER>
+    </SUITE>
   </component>
 </project>
